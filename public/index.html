@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mad libs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>mad libs</h1>
+    <p>Pick an adjective that is used to describe food.</p>
+    <input id="adjectives" type="text"/>
+    <button id="send-it-in">submit</button>
+    <div class ="adjTracking">
+        <button id="get-tracker">display word submissions!</button>
+        <div id="adj-submission"></div>
+    </div>
+    <div>
+        <button id="show-template">reveal mad libs template</button>
+        <p id="libs-template"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
